@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menubuttons",
+  "info": {
+    "singularName": "menubutton",
+    "pluralName": "menubuttons",
+    "displayName": "menubutton",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Button1": {
+      "type": "string"
+    },
+    "navbars": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::navbar.navbar",
+      "inversedBy": "menubuttons"
+    },
+    "Button2": {
+      "type": "string"
+    },
+    "Button3": {
+      "type": "string"
+    },
+    "Button4": {
+      "type": "string"
+    },
+    "Button5": {
+      "type": "string"
+    }
+  }
+}

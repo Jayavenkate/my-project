@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "creates",
+  "info": {
+    "singularName": "create",
+    "pluralName": "creates",
+    "displayName": "create",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titleione": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

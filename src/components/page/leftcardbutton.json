@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_leftcardbuttons",
+  "info": {
+    "displayName": "leftcardbutton",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "Button1": {
+      "type": "string"
+    },
+    "Button2": {
+      "type": "string"
+    },
+    "Button3": {
+      "type": "string"
+    }
+  }
+}

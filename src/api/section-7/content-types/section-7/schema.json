@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_7s",
+  "info": {
+    "singularName": "section-7",
+    "pluralName": "section-7s",
+    "displayName": "section-7",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "navbar": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::navbar.navbar",
+      "inversedBy": "section_7s"
+    }
+  }
+}

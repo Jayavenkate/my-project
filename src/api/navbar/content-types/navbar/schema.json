@@ -1,0 +1,108 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbars",
+  "info": {
+    "singularName": "navbar",
+    "pluralName": "navbars",
+    "displayName": "navbar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "startbutton": {
+      "type": "string",
+      "required": false
+    },
+    "menubuttons": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::menubutton.menubutton",
+      "mappedBy": "navbars"
+    },
+    "leftcontents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::content.content",
+      "mappedBy": "navbar"
+    },
+    "right_contents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::right-content.right-content",
+      "mappedBy": "navbar"
+    },
+    "leftcontentbuttons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::leftcontentbutton.leftcontentbutton",
+      "mappedBy": "navbar"
+    },
+    "section_3s": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::section-3.section-3",
+      "mappedBy": "navbar"
+    },
+    "section_4s": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::section-4.section-4",
+      "mappedBy": "navbar"
+    },
+    "section_6s": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::section-6.section-6",
+      "mappedBy": "navbar"
+    },
+    "section_7s": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::section-7.section-7",
+      "mappedBy": "navbar"
+    },
+    "section_8s": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::section-8.section-8",
+      "mappedBy": "navbar"
+    },
+    "section_9s": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::section-9.section-9",
+      "mappedBy": "navbar"
+    },
+    "section_10s": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::section-10.section-10",
+      "mappedBy": "navbar"
+    },
+    "section_11s": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::section-11.section-11",
+      "mappedBy": "navbar"
+    },
+    "footers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::footer.footer",
+      "mappedBy": "navbar"
+    },
+    "footerpages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::footerpage.footerpage",
+      "mappedBy": "navbar"
+    }
+  }
+}

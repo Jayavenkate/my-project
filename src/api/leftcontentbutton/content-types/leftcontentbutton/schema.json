@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leftcontentbuttons",
+  "info": {
+    "singularName": "leftcontentbutton",
+    "pluralName": "leftcontentbuttons",
+    "displayName": "section-1button",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Button1": {
+      "type": "string"
+    },
+    "Button2": {
+      "type": "string"
+    },
+    "Button3": {
+      "type": "string"
+    },
+    "navbar": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::navbar.navbar",
+      "inversedBy": "leftcontentbuttons"
+    }
+  }
+}

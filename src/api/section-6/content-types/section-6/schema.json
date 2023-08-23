@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_6s",
+  "info": {
+    "singularName": "section-6",
+    "pluralName": "section-6s",
+    "displayName": "section-6",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "navbar": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::navbar.navbar",
+      "inversedBy": "section_6s"
+    }
+  }
+}

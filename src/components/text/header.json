@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_text_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "buton": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": true,
+      "component": "text.button"
+    }
+  }
+}

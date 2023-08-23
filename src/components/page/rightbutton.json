@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_rightbuttons",
+  "info": {
+    "displayName": "rightbutton",
+    "icon": "bell"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttoncontent": {
+      "type": "string"
+    }
+  }
+}

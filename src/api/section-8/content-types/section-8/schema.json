@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_8s",
+  "info": {
+    "singularName": "section-8",
+    "pluralName": "section-8s",
+    "displayName": "section-8",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "navbar": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::navbar.navbar",
+      "inversedBy": "section_8s"
+    }
+  }
+}

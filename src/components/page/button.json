@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "bell",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Button1": {
+      "type": "string"
+    },
+    "Button2": {
+      "type": "string"
+    },
+    "Button3": {
+      "type": "string"
+    }
+  }
+}

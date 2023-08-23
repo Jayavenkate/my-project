@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_portfolio_simple_entries",
+  "info": {
+    "displayName": "simple-entry",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

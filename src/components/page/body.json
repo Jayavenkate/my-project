@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_bodies",
+  "info": {
+    "displayName": "Body",
+    "icon": "chartPie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "leftcard": {
+      "displayName": "LeftCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.left-card"
+    },
+    "leftcardbutton": {
+      "displayName": "leftcardbutton",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.leftcardbutton"
+    },
+    "rightcardbutton": {
+      "displayName": "RightCardButton",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.right-card-button"
+    }
+  }
+}

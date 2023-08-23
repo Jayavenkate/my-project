@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_left_cards",
+  "info": {
+    "displayName": "LeftCard",
+    "icon": "arrowLeft"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
