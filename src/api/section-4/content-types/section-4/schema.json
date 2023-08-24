@@ -29,6 +29,12 @@
       "relation": "manyToOne",
       "target": "api::navbar.navbar",
       "inversedBy": "section_4s"
+    },
+    "reviewtext": {
+      "type": "string"
+    },
+    "reviewsubcontent": {
+      "type": "string"
     }
   }
 }
